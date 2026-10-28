@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "lungesmash",
+  "version": "${version}",
+  "name": "LungeSmash",
+  "description": "Spear + mace combo HUD: lunge readiness, lunge food budget and a swap-to-mace prompt with predicted smash damage.",
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.lungesmash.LungeSmash"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
